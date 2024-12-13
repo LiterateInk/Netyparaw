@@ -1,21 +1,29 @@
-<img alt="NetYParaw: A awmazing API wrapper for NetYPareo" src=".github/assets/banner.svg" width="100%" />
+<img alt="NetYParaw: A awmazing API wrapper for NetYPareo" src="https://raw.githubusercontent.com/LiterateInk/Netyparaw/index/.github/assets/banner.svg" width="100%" />
 
 *This library **is not** affiliated with [YMAG](https://www.ymag.fr/) or [YPAREO](https://www.ymag.fr/erp-formation/ypareo) in any way.*
 
-## What is "NetYPareo" ?
+## Installation
 
-[NetYPareo](https://www.ymag.fr/erp-formation/ypareo) is a management software used by training organizations in France. It centralizes and simplifies tasks like managing schedules, tracking attendance, handling contracts, and allocating resources. It’s designed to improve efficiency in vocational and apprenticeship centers.
+Use your favorite package manager to install this library from NPM.
 
-## Implementations
+```bash
+# pnpm
+pnpm add netyparaw
 
-You're currently on the `index` branch.
+# Yarn
+yarn add netyparaw
 
-Since we're implementing this library in different programming languages, we have a branch for each of them.
+# npm
+npm add netyparaw
 
-|   [JS/TS](https://github.com/LiterateInk/Pawnote/tree/js)   | Rust |                        Python                         | Swift |
-|:-----------------------------------------------------------:|:-------------------------------------------------------:|:-----------------------------------------------------:|:-----:|
-| Kotlin |                           C#                            | Dart |       |
+# Bun
+bun add netyparaw
+```
 
-## License
+## Documentation
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE.md](LICENSE.md) file for details.
+You can find documentation with guides at [docs.literate.ink/netyparaw](https://docs.literate.ink/netyparaw).
+
+If it's not enough you can also take a look at the [`examples`](https://github.com/LiterateInk/Netyparaw/tree/js/examples) folder in the GitHub repository for inspiration.
+
+If none of those are helpful, you can always [open an issue](https://github.com/LiterateInk/Netyparaw/issues) to ask for help or join the [LiterateInk Discord server](https://literate.ink/discord).
