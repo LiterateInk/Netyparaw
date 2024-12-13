@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: NetYParaw
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: LiterateInk
+    website: "https://literate.ink"
+    email: contact@literate.ink
+repository-code: 'https://github.com/LiterateInk/Pawnote'
+url: 'https://docs.literate.ink/netyparaw'
+abstract: >-
+  A awmazing API wrapper for NetYParaw.
+keywords:
+  - NetYParaw
+  - wrapper
+  - api
+license: GPL-3.0-or-later
