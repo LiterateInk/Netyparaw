@@ -53,6 +53,7 @@ export const loginCredentials = async (baseURL: string, username: string, passwo
     };
 
     // Redirect to the home page
+    // @ts-ignore : The location header is set in this case
     const login_redirect = new Request(baseURL, login_response.headers.get('location')!);
     login_redirect.setSession(session);
     const login_redirect_response = await login_redirect.send(fetcher);
