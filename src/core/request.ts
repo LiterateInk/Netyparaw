@@ -7,7 +7,7 @@ export class Request {
     public constructor (baseURL: string, path: string) {
         this.request = {
             url: new URL(baseURL + path),
-            redirect: "manual"
+            redirect: "manual",
         };
     }
 
