@@ -1,3 +1,5 @@
+import {Grade} from "~/models/grades";
+
 export type ReportSessionOption = Readonly<{
     session_id: number;
     session_code: number;
@@ -35,4 +37,15 @@ export type ReportSubjectResult = Readonly<{
 export type Report = Readonly<{
     session_list: Array<ReportSessionOption>;
     session: ReportSessionDictionary,
+}>
+
+export type ReportSubjectDetails = Readonly<{
+    subject_name: string;
+    subject_coefficient: number;
+    grades: Array<Grade>;
+    group_average?: number;
+    group_average_min?: number;
+    group_average_max?: number;
+    average?: number;
+    teacher_comment?: string;
 }>
