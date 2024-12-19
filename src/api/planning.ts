@@ -14,7 +14,6 @@ export const planningFromDay = async (session: Session, date: Date, fetcher: Fet
     let date_url = iso_date.split("-").reverse().join("/");
 
     // Get the planning from a specific day
-    console.log(`${session.baseURL}/Net-YPareo/index.php/planning/jour/ajax/${date_url}`);
     const planning_request = new Request(session.baseURL, `/Net-YPareo/index.php/planning/jour/ajax/${date_url}`);
     planning_request.setSession(session);
     const planning_response = await planning_request.send(fetcher);
